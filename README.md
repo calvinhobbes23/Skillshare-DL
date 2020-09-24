@@ -6,7 +6,7 @@
 
 ## Usage:
 
-<a href="https://colab.research.google.com/github/calvinhobbes23/Skillshare-DL/Skillshare_DL_%5BKENWAY%5D.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/calvinhobbes23/Skillshare-DL/blob/master/Skillshare_DL_%5BKENWAY%5D.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 <hr>
 
