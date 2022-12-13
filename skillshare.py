@@ -24,7 +24,7 @@ class Skillshare(object):
             return False
 
     def download_course_by_url(self, url):
-        m = re.match(r'https://www.skillshare.com/classes/.*?/(\d+)', url)
+        m = re.match(r'https://www.skillshare.com/en/classes/.*?/(\d+)', url)
 
         if not m:
             raise Exception('Failed to parse class ID from URL')
@@ -66,8 +66,9 @@ class Skillshare(object):
         for s in data['_embedded']['sessions']['_embedded']['sessions']:
             video_id = None
             if 'video_hashed_id' in s and s['video_hashed_id']:
+                print(s[video_hashed_id])
                 video_id = s['video_hashed_id'].split(':')[1]
-
+            
             if not video_id:
                 raise Exception('Failed to read video ID from data')
 
