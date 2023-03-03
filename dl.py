@@ -1,4 +1,4 @@
-import sys, os
+import sys, os, requests
 from skillshare import Skillshare, splash
 from magic import cookie
 
